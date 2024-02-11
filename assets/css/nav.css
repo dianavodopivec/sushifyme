@@ -1,0 +1,63 @@
+.container-nav {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 55px;
+    padding: 40px 200px;
+    border-radius: 0px 30px 30px 0px;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    -webkit-border-radius: 0px 30px 30px 0px;
+    -moz-border-radius: 0px 30px 30px 0px;
+    -ms-border-radius: 0px 30px 30px 0px;
+    -o-border-radius: 0px 30px 30px 0px;
+}
+
+.logo {
+    position: relative;
+    font-weight: 800;
+    color: var(--color-grey);
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    position: relative;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: 0.6s;
+    -webkit-transform: 0.6s;
+    -moz-transform: 0.6s;
+    -ms-transform: 0.6s;
+    -o-transform: 0.6s;
+}
+
+nav a:hover {
+    color: rgb(244, 227, 196);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+
